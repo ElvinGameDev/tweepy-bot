@@ -18,4 +18,7 @@ th.search_add_to_tweets(query="#100DaysOfCode", result_type="recent", count=40)
 
 # like
 for seached_tweet in th.tweets:
-    th.do_like_to_tweet(seached_tweet)
+    try:
+        th.do_like_to_tweet(seached_tweet)
+    except Exception as e:
+        print(e)
