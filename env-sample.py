@@ -1,6 +1,6 @@
 import os
 
-def load_env():
+def set_env():
   os.environ["CONSUMER_KEY"] = "CONSUMER_KEY"
   os.environ["CONSUMER_SECRET"] = "CONSUMER_SECRET"
   os.environ["ACCESS_TOKEN"] = "ACCESS_TOKEN"
