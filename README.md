@@ -4,6 +4,10 @@
 ```
 pip install -r requirements.txt
 ```
+or
+```
+pip install tweepy
+```
 
 [2] Copy env-sample.py to create env.py
 
